@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class OffScreenDestroyer : MonoBehaviour
 {
-[SerializeField]float lowerEdjes = 10f;
+[SerializeField]float lowerEdjes = 9f;
 static Camera cameraMain;
     void Awake()
     {

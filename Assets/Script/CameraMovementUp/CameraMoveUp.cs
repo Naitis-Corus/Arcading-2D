@@ -6,8 +6,8 @@ public class CameraMoveUp : MonoBehaviour
     [SerializeField] float speedMoveUp = 1.5f;
     [SerializeField] float cameraDelayTime = 2f;
   
-   
-    void Update()
+   //This function is executed after the Update (within a frame)
+    void LateUpdate()
     {
 
         float posY = transform.position.y;

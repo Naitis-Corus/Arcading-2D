@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
     void Start()
     {
 
-        screenEdgeX = (Camera.main.orthographicSize * Camera.main.aspect) + 1f;
+        screenEdgeX = (Camera.main.orthographicSize * Camera.main.aspect) + 0.37f;
 
     }
     void OnCollisionStay2D(Collision2D collision)
@@ -35,9 +35,9 @@ public class Player : MonoBehaviour
 
         if (Mathf.Abs(transform.position.x) > screenEdgeX)
         {
-            playerPos = transform.position;
+            playerPos = rb.position;
             playerPos.x = playerPos.x > 0 ? -screenEdgeX : screenEdgeX;
-            transform.position = playerPos;
+            rb.position = playerPos;
         }
     }
 }
