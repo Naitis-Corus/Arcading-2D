@@ -1,6 +1,6 @@
 # Arcading (Endless Jumper 2D)
 
-[Play in your browser](https://naitis-corus.github.io/Arcading-2D/)
+**[Play in your browser](https://naitis-corus.github.io/Arcading-2D/)**
 
 A prototype of an endless 2D platformer built in Unity. The player jumps upward across platforms while a live altimeter tracks the height reached.
 
