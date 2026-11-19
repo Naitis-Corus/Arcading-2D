@@ -16,5 +16,5 @@ A prototype of an endless 2D platformer built in Unity. The player jumps upward 
 - Move: A / D or arrow keys
 
 ## Built With
-Unity, C#
+Unity, C# and 2D physics
 
